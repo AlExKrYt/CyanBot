@@ -10,7 +10,7 @@ import java.awt.Insets
 import java.util.*
 import javax.swing.*
 
-class CommandHeadShaking : Command("Вращение") {
+class CommandHeadShaking : Command("Кивание") {
     private val enabledMap = HashMap<Bot, Boolean>()
     private val timerTaskMap = HashMap<Bot, TimerTask>()
 
